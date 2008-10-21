@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== RSS Link Tagger for Google Analytics ===
 Contributors: timanrebel
 Donate link: http://trebel.nl
 Tags: rss,google analytics
