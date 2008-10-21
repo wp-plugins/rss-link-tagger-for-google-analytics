@@ -3,7 +3,7 @@
 Plugin Name: RSS Link Tagger for Google Analytics
 Plugin URI: http://trebel.nl/blog/rsslinktagger
 Description: Modifies RSS permalinks to include utm query parameters, used by Google Analytics to track non-adwords advertising campaigns.
-Version: v0.1
+Version: 1.0
 Author: Timan Rebel
 Author URI: http://trebel.nl/
 */
@@ -32,7 +32,7 @@ function rsslinktagger($guid) {
 		
 		$delimiter = '?';
 		
-		if (strpos ( $guid, '?' ) > 0)
+		if (strpos ( $guid, $delimiter ) > 0)
 			$delimiter = '&amp;';
 		
 		return $guid . $delimiter . 'utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss';
