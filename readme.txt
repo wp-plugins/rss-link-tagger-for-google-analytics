@@ -3,8 +3,8 @@ Contributors: timanrebel
 Donate link: http://trebel.nl
 Tags: rss,google analytics
 Requires at least: 2.6.2
-Tested up to: 2.6.2
-Stable tag: 1.0
+Tested up to: 2.7
+Stable tag: 1.1
 
 Modifies RSS permalinks to include utm query parameters, used by Google Analytics to track non-adwords advertising campaigns.
 
